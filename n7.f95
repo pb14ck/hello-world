@@ -1,4 +1,4 @@
-program lab7
+program Graphic
 implicit none
 integer :: l = 40, n, i, k, j
 real :: sup = -100000, inf = 100000, x0 = -2, xk=2, h = 0.1, u, v, t
@@ -36,4 +36,4 @@ real function f(x)
 real x
 f = -x**4+4*x**2
 end function f
-end program lab7
+end program Graphic
